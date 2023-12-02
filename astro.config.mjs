@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://printcode476.github.io/',
+  base: '/site-aji-test',
 	integrations: [mdx(), sitemap()],
 });
